@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { FormularioProvider } from '../../providers/formulario/formulario';
 
 /**
  * Generated class for the FormularioPage page.
@@ -13,8 +14,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'formulario.html',
 })
 export class FormularioPage {
-
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  formularios: any =[];
+  constructor(public navCtrl: NavController, public navParams: NavParams, public formService: FormularioProvider) {
+    this.formularios = this.formService.getParametros;
   }
 
   ionViewDidLoad() {

@@ -7,6 +7,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { FormularioPageModule } from '../pages/formulario/formulario.module'
+import { FormularioProvider } from '../providers/formulario/formulario';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FormularioPageModule } from '../pages/formulario/formulario.module'
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    FormularioProvider
   ]
 })
 export class AppModule {}

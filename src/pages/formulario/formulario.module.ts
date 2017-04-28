@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
 import { FormularioPage } from './formulario';
+import { FormularioProvider } from '../../providers/formulario/formulario';
+
 
 @NgModule({
   declarations: [
@@ -10,7 +12,10 @@ import { FormularioPage } from './formulario';
     IonicPageModule.forChild(FormularioPage),
   ],
   exports: [
-    FormularioPage
+    FormularioPage,
+  ],
+  providers: [
+    FormularioProvider
   ]
 })
 export class FormularioPageModule {}
