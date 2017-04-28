@@ -1,0 +1,459 @@
+[{
+		"id": 1,
+		"name": "Tipo de ocupação das margens do corpo d’água (principal atividade)",
+		"alternativas": [{
+				"id": 1,
+				"resposta": "Vegetação natural",
+				"pontuacao": 4
+			}, {
+				"id": 2,
+				"resposta": "Campo de pastagem/Agricultura/ Monocultura/ Reflorestamento",
+				"pontuacao": 2
+			},
+			{
+				"id": 3,
+				"resposta": "Residencial/ Comercial/ Industrial",
+				"pontuacao": 0
+			}
+		]
+	}, {
+		"id": 2,
+		"name": "Erosão próxima e/ou nas margens do rio e assoreamento em seu leito.",
+		"alternativas": [{
+				"id": 1,
+				"resposta": "Ausente",
+				"pontuacao": 4
+			}, {
+				"id": 2,
+				"resposta": "Moderada",
+				"pontuacao": 2
+			},
+			{
+				"id": 3,
+				"resposta": "Acentuada",
+				"pontuacao": 0
+			}
+		]
+	}, {
+		"id": 3,
+		"name": "Alterações antrópica",
+		"alternativas": [{
+				"id": 1,
+				"resposta": "Ausente",
+				"pontuacao": 4
+			}, {
+				"id": 2,
+				"resposta": "Alterações de origem doméstica (esgoto, lixo)",
+				"pontuacao": 2
+			},
+			{
+				"id": 3,
+				"resposta": "Alterações de origem industrial/ urbana (fábricas, siderurgias, canalização, retilinização do curso do rio)",
+				"pontuacao": 0
+			}
+		]
+	}, {
+		"id": 4,
+		"name": " Cobertura vegetal no leito",
+		"alternativas": [{
+				"id": 1,
+				"resposta": "Parcial",
+				"pontuacao": 4
+			}, {
+				"id": 2,
+				"resposta": "Total",
+				"pontuacao": 2
+			},
+			{
+				"id": 3,
+				"resposta": "Ausente",
+				"pontuacao": 0
+			}
+		]
+	}, {
+		"id": 5,
+		"name": "Odor da água",
+		"alternativas": [{
+				"id": 1,
+				"resposta": "Nenhum",
+				"pontuacao": 4
+			}, {
+				"id": 2,
+				"resposta": "Esgoto (ovo podre)",
+				"pontuacao": 2
+			},
+			{
+				"id": 3,
+				"resposta": "Ausente",
+				"pontuacao": 0
+			}
+		]
+	}, {
+		"id": 6,
+		"name": "Oleosidade da água",
+		"alternativas": [{
+				"id": 1,
+				"resposta": "Ausente",
+				"pontuacao": 4
+			}, {
+				"id": 2,
+				"resposta": "Moderada",
+				"pontuacao": 2
+			},
+			{
+				"id": 3,
+				"resposta": "Abundante",
+				"pontuacao": 0
+			}
+		]
+	}, {
+		"id": 7,
+		"name": "Transparência da água",
+		"alternativas": [{
+				"id": 1,
+				"resposta": "Transparente",
+				"pontuacao": 4
+			}, {
+				"id": 2,
+				"resposta": "turva/cor de chá-forte",
+				"pontuacao": 2
+			},
+			{
+				"id": 3,
+				"resposta": "opaca ou colorida",
+				"pontuacao": 0
+			}
+		]
+	}, {
+		"id": 8,
+		"name": "Odor do sedimento (fundo)",
+		"alternativas": [{
+				"id": 1,
+				"resposta": "Nenhum",
+				"pontuacao": 4
+			}, {
+				"id": 2,
+				"resposta": "Esgoto (ovo podre)",
+				"pontuacao": 2
+			},
+			{
+				"id": 3,
+				"resposta": "óleo/industrial",
+				"pontuacao": 0
+			}
+		]
+	} , {
+		"id": 9,
+		"name": " Oleosidade do fundo",
+		"alternativas": [{
+				"id": 1,
+				"resposta": "Ausente",
+				"pontuacao": 4
+			}, {
+				"id": 2,
+				"resposta": "Moderado",
+				"pontuacao": 2
+			},
+			{
+				"id": 3,
+				"resposta": "Abundante",
+				"pontuacao": 0
+			}
+		]
+	}, {
+		"id": 10,
+		"name": "Tipo de fundo",
+		"alternativas": [{
+				"id": 1,
+				"resposta": "Pedras/cascalho",
+				"pontuacao": 4
+			}, {
+				"id": 2,
+				"resposta": "Lama/areia",
+				"pontuacao": 2
+			},
+			{
+				"id": 3,
+				"resposta": "cimento/canalizado",
+				"pontuacao": 0
+			}
+		]
+	}, {
+		"id": 11,
+		"name": "Tipos de fundo",
+		"alternativas": [{
+				"id": 1,
+				"resposta": "Mais de 50% com habitats diversificados; pedaços de troncos submersos; cascalho ou outros habitats estáveis.",
+				"pontuacao": 5
+			}, {
+				"id": 2,
+				"resposta": "30 a 50% de habitats diversificados; habitats adequados para a manutenção das populações de organismos aquáticos.",
+				"pontuacao": 3
+			},
+			{
+				"id": 3,
+				"resposta": "10 a 30% de habitats diversificados; disponibilidade de habitats insuficiente; substratos frequentemente modificados.",
+				"pontuacao": 2
+			},
+			{
+				"id": 4,
+				"resposta": "Menos que 10% de habitats diversificados; ausência de habitats óbvia; substrato rochoso instável para fixação dos organismos.",
+				"pontuacao": 0
+			}
+		]
+	}, {
+		"id": 12,
+		"name": "  Extensão de rápidos",
+    "alternativas": [{
+				"id": 1,
+				"resposta": "Rápidos e corredeiras bem desenvolvidas; rápidos tão largos quanto o rio e com o comprimento igual ao dobro da largura do rio.",
+				"pontuacao": 5
+			}, {
+				"id": 2,
+				"resposta": "Rápidos com a largura igual à do rio, mas com comprimento menor que o dobro da largura do rio.",
+				"pontuacao": 3
+			},
+			{
+				"id": 3,
+				"resposta": "Trechos rápidos podem estar ausentes; rápidos não tão largos quanto o rio e seu comprimento menor que o dobro da largura do rio.",
+				"pontuacao": 2
+			},
+			{
+				"id": 4,
+				"resposta": "Rápidos ou corredeiras inexistentes.",
+				"pontuacao": 0
+			}
+		]
+	}, {
+		"id": 13,
+		"name": "Frequência de rápidos",
+    "alternativas": [{
+				"id": 1,
+				"resposta": "Rápidos relativamente frequentes; distância entre rápidos dividida pela largura do rio entre 5 e 7.",
+				"pontuacao": 5
+			}, {
+				"id": 2,
+				"resposta": "Rápidos não frequentes; distância entre rápidos dividida pela largura do rio entre 7 e 15",
+				"pontuacao": 3
+			},
+			{
+				"id": 3,
+				"resposta": "Rápidos ou corredeiras ocasionais; habitats formados pelos contornos do fundo; distância entre rápidos dividida pela largura do rio entre 15 e 25.",
+				"pontuacao": 2
+			},
+			{
+				"id": 4,
+				"resposta": "Geralmente com lâmina d’água “lisa” ou com rápidos rasos; pobreza de habitats; distância entre rápidos dividida pela largura do rio maior que 25.",
+				"pontuacao": 0
+			}
+		]
+	}, {
+		"id": 14,
+		"name": "Tipos de substrato",
+    "alternativas": [{
+				"id": 1,
+				"resposta": "Seixos abundantes (prevalecendo em nascentes).",
+				"pontuacao": 5
+			}, {
+				"id": 2,
+				"resposta": "Seixos abundantes; cascalho comum.",
+				"pontuacao": 3
+			},
+			{
+				"id": 3,
+				"resposta": "Fundo formado predominantemente por cascalho; alguns seixos presentes.",
+				"pontuacao": 2
+			},
+			{
+				"id": 4,
+				"resposta": "Fundo pedregoso; seixos ou lamoso.",
+				"pontuacao": 0
+			}
+		]
+	}, {
+		"id": 15,
+		"name": " Oleosidade do fundo",
+    "alternativas": [{
+				"id": 1,
+				"resposta": "Entre 0 e 25% do fundo coberto por lama.",
+				"pontuacao": 5
+			}, {
+				"id": 2,
+				"resposta": "Entre 25 e 50% do fundo coberto por lama.",
+				"pontuacao": 3
+			},
+			{
+				"id": 3,
+				"resposta": "Entre 50 e 75% do fundo coberto por lama.",
+				"pontuacao": 2
+			},
+			{
+				"id": 4,
+				"resposta": "Mais de 75% do fundo coberto por lama.",
+				"pontuacao": 0
+			}
+		]
+	}, {
+		"id": 16,
+		"name": "Depósitos sedimentares",
+    "alternativas": [{
+				"id": 1,
+				"resposta": "Menos de 5% do fundo com deposição de lama; ausência de deposição nos remansos.",
+				"pontuacao": 5
+			}, {
+				"id": 2,
+				"resposta": "Alguma evidência de modificação no fundo, principalmente como aumento de cascalho, areia ou lama; 5 a 30% do fundo afetado; suave deposição nos remansos.",
+				"pontuacao": 3
+			},
+			{
+				"id": 3,
+				"resposta": "Deposição moderada de cascalho novo, areia ou lama nas margens; entre 30 a 50% do fundo afetado; deposição moderada nos remansos.",
+				"pontuacao": 2
+			},
+			{
+				"id": 4,
+				"resposta": "Grandes depósitos de lama,maior desenvolvimento das margens; mais de 50% do fundo modificado; remansos ausentes devido à significativa deposição de sedimentos.",
+				"pontuacao": 0
+			}
+		]
+	}, {
+		"id": 17,
+		"name": " Alterações no canal do rio",
+    "alternativas": [{
+				"id": 1,
+				"resposta": "Canalização (retificação) ou dragagem ausente ou mínima; rio com padrão normal.",
+				"pontuacao": 5
+			}, {
+				"id": 2,
+				"resposta": "Alguma canalização presente, normalmente próximo à construção de pontes; evidência de modificações há mais de 20 anos.",
+				"pontuacao": 3
+			},
+			{
+				"id": 3,
+				"resposta": "Alguma modificação presente nas duas margens; 40 a 80% do rio modificado.",
+				"pontuacao": 2
+			},
+			{
+				"id": 4,
+				"resposta": "Margens modificadas; acima de 80% do rio modificado.",
+				"pontuacao": 0
+			}
+		]
+	}, {
+		"id": 18,
+		"name": "Características do fluxo das águas",
+    "alternativas": [{
+				"id": 1,
+				"resposta": "Fluxo relativamente igual em toda a largura do rio; mínima quantidade de substrato exposta.",
+				"pontuacao": 5
+			}, {
+				"id": 2,
+				"resposta": "Lâmina d’água acima de 75% do canal do rio; ou menos de 25% do substrato exposto.",
+				"pontuacao": 3
+			},
+			{
+				"id": 3,
+				"resposta": "Lâmina d’água entre 25 e 75% do canal do rio, e/ou maior parte do substrato nos “rápidos” exposto.",
+				"pontuacao": 2
+			},
+			{
+				"id": 4,
+				"resposta": "Lâmina d’água escassa e presente apenas nos remansos.",
+				"pontuacao": 0
+			}
+		]
+	}, {
+		"id": 19,
+		"name": "Presença de mata ciliar",
+    "alternativas": [{
+				"id": 1,
+				"resposta": "Acima de 90% com vegetação ripária nativa, incluindo árvores, arbustos ou macrófitas; mínima evidência de deflorestamento; todas as plantas atingindo a altura “normal”.",
+				"pontuacao": 5
+			}, {
+				"id": 2,
+				"resposta": "Entre 70 e 90% com vegetação ripária nativa; deflorestamento evidente mas não afetando o desenvolvimento da vegetação; maioria das plantas atingindo a altura “normal”.",
+				"pontuacao": 3
+			},
+			{
+				"id": 3,
+				"resposta": "Entre 50 e 70% com vegetação ripária nativa; deflorestamento óbvio; trechos com solo exposto ou vegetação eliminada; menos da metade das plantas atingindo a altura “normal”.",
+				"pontuacao": 2
+			},
+			{
+				"id": 4,
+				"resposta": "Menos de 50% da mata ciliar nativa; deflorestamento muito acentuado.",
+				"pontuacao": 0
+			}
+		]
+	}, {
+		"id": 20,
+		"name": "Estabilidade das margens",
+    "alternativas": [{
+				"id": 1,
+				"resposta": "Margens estáveis; evidência de erosão mínima ou ausente; pequeno potencial para problemas futuros. Menos de 5% da margem afetada.",
+				"pontuacao": 5
+			}, {
+				"id": 2,
+				"resposta": "Moderadamente estáveis; pequenas áreas de erosão frequentes. Entre 5 e 30% da margem com erosão.",
+				"pontuacao": 3
+			},
+			{
+				"id": 3,
+				"resposta": "Moderadamente instável; entre 30 e 60% da margem com erosão. Risco elevado de erosão durante enchentes.",
+				"pontuacao": 2
+			},
+			{
+				"id": 4,
+				"resposta": "Instável; muitas áreas com erosão; frequentes áreas descobertas nas curvas do rio; erosão óbvia entre 60 e 100% da margem.",
+				"pontuacao": 0
+			}
+		]
+	}, {
+		"id": 21,
+		"name": "Extensão de mata ciliar",
+    "alternativas": [{
+				"id": 1,
+				"resposta": "Largura da vegetação ripária maior que 18 m; sem influência de atividades antrópicas (agropecuária, estradas, etc.).",
+				"pontuacao": 5
+			}, {
+				"id": 2,
+				"resposta": "Largura da vegetação ripária entre 12 e 18 m; mínima influência antrópica.",
+				"pontuacao": 3
+			},
+			{
+				"id": 3,
+				"resposta": "Largura da vegetação ripária entre 6 e 12 m; influência antrópica intensa.",
+				"pontuacao": 2
+			},
+			{
+				"id": 4,
+				"resposta": "Largura da vegetação ripária menor que 6 m; vegetação restrita ou ausente devido à atividade antrópica.",
+				"pontuacao": 0
+			}
+		]
+  }, {
+		"id": 22,
+		"name": "Presença de plantas aquáticas",
+    "alternativas": [{
+				"id": 1,
+				"resposta": "Pequenas macrófitas aquáticas e/ou musgos distribuídos pelo leito.",
+				"pontuacao": 5
+			}, {
+				"id": 2,
+				"resposta": "Macrófitas aquáticas ou algas filamentosas ou musgos distribuídas no rio, substrato com perifiton.",
+				"pontuacao": 3
+			},
+			{
+				"id": 3,
+				"resposta": "Algas filamentosas ou macrófitas em poucas pedras ou alguns remansos, perifiton abundante e biofilme.",
+				"pontuacao": 2
+			},
+			{
+				"id": 4,
+				"resposta": "Ausência de vegetação aquática no leito do rio ou grandes bancos macrófitas (p.ex. aguapé).",
+				"pontuacao": 0
+			}
+		]
+	}
+
+]
